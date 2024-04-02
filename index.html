@@ -1,80 +1,99 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>La mia pagina W3.CSS</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <style>
-        .jumbotron {
-            background-image: url('assets/header.webp');
-            background-size: cover;
-            color: white;
-            padding: 100px 25px;
-        }
-        .sticky {
-            position: -webkit-sticky; /* Safari */
-            position: sticky;
-            top: 0;
-            background-color: #333;
-            padding: 10px 0;
-            z-index: 1000;
-        }
-        .sticky a {
-            padding: 10px 15px;
-            color: white;
-            text-decoration: none;
-        }
-        .card {
-            background-color: #f1f1f1;
-            margin: 10px; /* Aggiunge spazio intorno alle cards */
-        }
-        #cards-container {
-            display: flex;
-            flex-wrap: wrap; /* Permette agli elementi di passare alla riga successiva */
-            justify-content: space-around; /* Distribuisce lo spazio intorno agli elementi */
-            align-items: flex-start; /* Allinea gli elementi in alto */
-        }
-    </style>
-</head>
+  <head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" 
+          content="IE=edge"> 
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0"> 
+    <title>Algorithmic you</title> 
+    <link rel="stylesheet" href= 
+"https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+
+<style>
+  .jumbotron-custom {
+      background-image: url('assets/header.webp');
+      background-size: cover;
+      color: white;
+      padding: 100px 25px;
+  }
+  .sticky-top {
+      z-index: 1020; /* Adjusted for Bootstrap 5, if necessary */
+  }
+  .card-custom {
+      background-color: #f1f1f1;
+  }
+  .card-img-top {
+      width: 100%; /* Assicurati che l'immagine riempia la larghezza del contenitore della card */
+      height: 300px; /* Imposta un'altezza fissa per fare in modo che l'immagine venga croppata */
+      object-fit: cover; /* Assicura che l'immagine copra completamente lo spazio disponibile, venendo croppata se necessario */
+  }
+</style>
+</head> 
 <body>
 
-<div class="w3-bar w3-black sticky">
-  <a href="#about" class="w3-bar-item w3-button">About</a>
-  <a href="#more" class="w3-bar-item w3-button">See More</a>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <!-- Updated for Bootstrap 5: data-bs-toggle and data-bs-target for the collapse component -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#about">About <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#more">See More</a>
+      </div>
+    </div>
+  </div>
+</nav>
 
-<div class="jumbotron w3-center">
-  <h1>Benvenuti!</h1>
-  <p>Questa è una breve descrizione.</p>
-</div>
-
-<div class="w3-row">
-  <div class="w3-col s12">
-    <h2>Titolo Sezione</h2>
-    <p>Questa è una descrizione un po' più lunga di quello che questa pagina o sezione riguarda.</p>
+<div class="jumbotron jumbotron-fluid jumbotron-custom text-center">
+  <div class="container">
+    <h1 class="display-4">Benvenuti!</h1>
+    <p class="lead">Questa è una breve descrizione.</p>
   </div>
 </div>
 
-<div id="cards-container" class="w3-row-padding">
-  <!-- Le cards saranno generate qui da D3.js -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h2>Titolo Sezione</h2>
+      <p>Questa è una descrizione un po' più lunga di quello che questa pagina o sezione riguarda.</p>
+    </div>
+  </div>
 </div>
 
-<script src="https://d3js.org/d3.v5.min.js"></script>
+<div id="cards-container" class="container">
+  <div class="row"> 
+    <!-- Le cards saranno generate qui da D3.js -->
+  </div>
+</div>
+
+<!-- Updated D3.js to version 7 -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- jQuery and Popper.js are not required for Bootstrap 5 -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+
 <script>
-// Funzione per caricare i dati da Google Spreadsheet e generare le cards
+// Funzione per caricare i dati e generare le cards aggiornata per D3.js v7
 function loadCards() {
     const spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSDrIkzBAFj1xxRb-2o5vk-2mXn4_U4_s0YrXc_JbUMXj4l6JuAvxwy0P-X9aRHAA/pub?gid=2110310534&single=true&output=csv';
 
     d3.csv(spreadsheetUrl).then(function(data) {
-        console.log(data)
-        const cardsContainer = d3.select('#cards-container');
-        const cards = cardsContainer.selectAll('.card')
+        console.log(data);
+        const cardsContainer = d3.select('#cards-container .row');
+        const cards = cardsContainer.selectAll('.card-custom')
             .data(data)
             .enter().append('div')
-            .attr('class', 'w3-col s12 m4 l3 card');
+            .attr('class', 'msnry-elm col-4')
+            .append('div')
+            .attr('class', 'card mt-4');
 
-        cards.append('img').attr('src', d=>d.img).attr('style', 'width:100%');
-        cards.append('h3').text(d => d['Title']);
-        cards.append('a').attr('href', d => d.link).text(d => d['Nome e Cognome']);
+        cards.append('img').attr('src', d=>d.img).attr('class', 'card-img-top');
+        cards.append('div').attr('class', 'card-body').append('h5').attr('class', 'card-title').text(d => d['Title']);
+        cards.append('div').attr('class', 'card-footer').append('a').attr('href', d => d.link).attr('class', 'btn btn-primary').text(d => d['Nome e Cognome']);
+
     });
 }
 
