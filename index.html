@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>La mia pagina W3.CSS</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .jumbotron {
+            background-image: url('assets/header.webp');
+            background-size: cover;
+            color: white;
+            padding: 100px 25px;
+        }
+        .sticky {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+            background-color: #333;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .sticky a {
+            padding: 10px 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .card {
+            background-color: #f1f1f1;
+            margin: 10px; /* Aggiunge spazio intorno alle cards */
+        }
+        #cards-container {
+            display: flex;
+            flex-wrap: wrap; /* Permette agli elementi di passare alla riga successiva */
+            justify-content: space-around; /* Distribuisce lo spazio intorno agli elementi */
+            align-items: flex-start; /* Allinea gli elementi in alto */
+        }
+    </style>
+</head>
+<body>
+
+<div class="w3-bar w3-black sticky">
+  <a href="#about" class="w3-bar-item w3-button">About</a>
+  <a href="#more" class="w3-bar-item w3-button">See More</a>
+</div>
+
+<div class="jumbotron w3-center">
+  <h1>Benvenuti!</h1>
+  <p>Questa è una breve descrizione.</p>
+</div>
+
+<div class="w3-row">
+  <div class="w3-col s12">
+    <h2>Titolo Sezione</h2>
+    <p>Questa è una descrizione un po' più lunga di quello che questa pagina o sezione riguarda.</p>
+  </div>
+</div>
+
+<div id="cards-container" class="w3-row-padding">
+  <!-- Le cards saranno generate qui da D3.js -->
+</div>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+// Funzione per caricare i dati da Google Spreadsheet e generare le cards
+function loadCards() {
+    const spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSDrIkzBAFj1xxRb-2o5vk-2mXn4_U4_s0YrXc_JbUMXj4l6JuAvxwy0P-X9aRHAA/pub?gid=2110310534&single=true&output=csv';
+
+    d3.csv(spreadsheetUrl).then(function(data) {
+        console.log(data)
+        const cardsContainer = d3.select('#cards-container');
+        const cards = cardsContainer.selectAll('.card')
+            .data(data)
+            .enter().append('div')
+            .attr('class', 'w3-col s12 m4 l3 card');
+
+        cards.append('img').attr('src', d=>d.img).attr('style', 'width:100%');
+        cards.append('h3').text(d => d['Title']);
+        cards.append('a').attr('href', d => d.link).text(d => d['Nome e Cognome']);
+    });
+}
+
+loadCards();
+</script>
+
+</body>
+</html>
