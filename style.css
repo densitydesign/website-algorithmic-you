@@ -31,11 +31,16 @@ a, a:visited, a:focus {
 }
 
 .jumbotron-custom {
-    padding: 20vh 12px 50px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 95vh;
+    align-items: end;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
     font-size: 0.9rem;
     line-height: 1.2;
     background: rgb(61,130,255);
-    background: linear-gradient(180deg, rgba(61,130,255,1) 0%, rgba(241,241,241,1) 50%); 
+    background: linear-gradient(180deg, rgba(61,130,255,1) 0%, rgba(241,241,241,1) 60%); 
 }
 
 .jumbotron-custom h4 {
@@ -50,7 +55,7 @@ a, a:visited, a:focus {
 }
 
 .jumbotron-custom .details {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
 }
 
@@ -94,7 +99,7 @@ a, a:visited, a:focus {
 }
 
 .algo-nav {
-    padding: 0.2rem 0 0 0;
+    padding: 0.5rem 0 0 0;
     background: rgb(61,130,255);
     -webkit-box-shadow: 0px 0px 10px 15px rgb(61,130,255); 
     box-shadow: 0px 0px 10px 15px rgb(61,130,255);
@@ -117,3 +122,18 @@ footer li {
     list-style: none;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .jumbotron-custom .logo {
+        margin-bottom: 2rem;
+        /* mix-blend-mode: exclusion; */
+    }
+
+    .custom-style {
+        font-size: 1rem;
+    }
+
+    .custom-style img {
+        width: 50px;
+    }
+  }
