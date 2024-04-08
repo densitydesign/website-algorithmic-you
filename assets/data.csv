@@ -1,0 +1,299 @@
+ok,name,Adesione,Email Address,Dimensioni,Supporto,title,link,Starting data ,topic,My Infopoetry,VERSIONE ITA,"Immagine/video
+",img
+ok,Alessandro Pedriali,SÌ,alessandro.pedriali@mail.polimi.it,2 m,On a table,Daily explorations on the way to Bovisa,https://infopoetry.densitydesign.org/infopoetries/daily-explorations-on-the-way-to-bovisa,"The chosen dataset consists in the personal Google Maps timeline that is the detailed resume of daily trips, in this case the route between home and Politecnico. In particular the considered data are the lenght of the movements and its different stages which are automatically tracked by Google (e.g. streets, shops, means of transportation). The stages are associated with a description card that present various images.","Daily journeys are often traveled mechanically, without paying particular attention to the surrounding landscape. On the contrary, Google Maps algorithm presents a much more attentive eye to the details of the travel and to the places that it is possible to meet. The intent is to arouse a reflective reaction in the user, highlighting the way in which the algorithm interferes with daily actions carried out mechanically, such as traveling between home and university, tracing and recording data of which the individual is unaware.","Following Google’s point of view, starting from the images of the interesting places that it already presents, retracing the tracked movements with a slower and more authorial look. The different stages of the journey will be reconsidered in order to be photographed again. It is thus possible to outline a photo-story, in which the images reconstruct the various stages of a daily journey highlighting their peculiar aspects.","Il dataset scelto consiste nella timeline personale di Google Maps, ovvero il resume dettagliato degli spostamenti quotidiani, in questo caso il percorso tra casa e il Politecnico. In particolare, i dati considerati sono la lunghezza degli spostamenti e le diverse tappe che vengono tracciate automaticamente da Google (ad esempio, strade, negozi, mezzi di trasporto). Le tappe sono associate a una scheda descrittiva che presenta varie immagini.	I viaggi quotidiani sono spesso percorsi in modo meccanico, senza prestare particolare attenzione al paesaggio circostante. Al contrario, l'algoritmo di Google Maps presenta un occhio molto più attento ai dettagli del viaggio e ai luoghi che è possibile incontrare. L'intento è quello di suscitare una reazione riflessiva nell'utente, evidenziando il modo in cui l'algoritmo interferisce con azioni quotidiane svolte meccanicamente, come il viaggio tra casa e università, tracciando e registrando dati di cui l'individuo non è consapevole.	Seguendo il punto di vista di Google, partendo dalle immagini dei luoghi interessanti che già presenta, si ripercorrono gli spostamenti tracciati con uno sguardo più lento e autoriale. Le diverse tappe del viaggio saranno riconsiderate per essere nuovamente fotografate. È così possibile delineare una fotostoria, in cui le immagini ricostruiscono le varie tappe di un viaggio quotidiano evidenziandone gli aspetti peculiari.",,https://infopoetry.densitydesign.org/assets/images/original/2022-2023_pedriali_3.JPG
+ok,Alessio De Nicolò,,,,,Virtuous Video Library,https://infopoetry.densitydesign.org/infopoetries/virtuous-video-library,,"YouTube usage (October 21, 2022 - October 21, 2023). Obtained from Google: 10,746 vi- deos viewed (title, date and time, channel) and 2,047 searches made (query, date and time). YouTube is a huge platform that, when used vir- tuously, offers unlimited opportunities for free study and learning. But can it really be used vir- tuously? Through my personal watched history, the infopoem aims to highlight the pervasive- ness of YouTube and the asymmetry between entertainment and actual learning. Specifically, this is done through a speculative scenario in which videos are translated into books, ironi- cally highlighting the contrast between format and content. At the center
+of this imaginary scenario is the Virtuous Video Library, a library that collects and preserves this content.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-19_denicolo_2.jpg
+ok,Andrea Benedetto,SÌ,andrea1.benedetto@mail.polimi.it,180 x 240 x 60 mm (180 x 737 x 60 mm fully opened),"On a table, but insured",General Journal of Network Requests,https://infopoetry.densitydesign.org/infopoetries/general-journal-of-network-requests,"The dataset is constituted by logs exported by uBlock Origin (uBO), an extension I use on my main internet browser. These logs are detailed lists of every request that my browser handles (e.g. downloading or uploading data) while I surf the web. Among these requests, there are those related to tracking, advertising and malware, which are either blocked or redirected by the extension itself. Thus, they reveal the flow of events happening behind the scenes and what requests are being filtered out.","This kind of data is controversial. Today, it’s pretty commonplace to hear people say that they don’t care at all about heavy data collection or tracking (“if you have nothing to hide, why do you care about privacy?”), even though it raises many political and economic concerns. In fact, many activists, writers, and researchers usually refer to these issues with the concept of surveillance capitalism, which essentially contextualises the age we’re living now—an age in which corporate and governmental entities collect, sell and share our private data to each other for profit and control, without repercussions nor explicit consent. Therefore, the aim of using my personal data is to highlight the quantity of network requests that are related to tracking or advertising during a typical day of web surfing, from the perspective of someone who is trying to steadily stray away from “big tech” and slowly moving to FLOSS (Free/Libre and Open Source Software) or self-hosted alternatives.","This journal serves as an evidence of the amount of services and requests uBO allows, blocks or redirects in my browser during a casual day of web surfing, so that a rough but concrete assessment of the amount of tracking I filter out can be done. Every request is detailed by its timestamp, the website it originated from, and the type of resource it corresponds to—for a total of about 50k rows (roughly 860 pages). The format—one of a long and detailed book of economic transactions—not only relates to what is usually done with the data referred by the logs themselves (capitalisation), but is also a physical enunciation of it. Thus, it gives it weight and importance, while being transparent and straight-forward in its delivery. To highlight the amount of filtering, blocked and redirected requests are colour-coded, so that the reader can reflect upon and possibly reconsider their position on the broader issue of surveillance capitalism.","Il set di dati è costituito dai log esportati da uBlock Origin (uBO), un'estensione che utilizzo sul mio browser internet principale. Questi log sono elenchi dettagliati di ogni richiesta che il mio browser gestisce (ad esempio, il download o il caricamento di dati) mentre navigo sul web. Tra queste richieste, ci sono quelle relative al tracciamento, alla pubblicità e al malware, che vengono bloccate o reindirizzate dall'estensione stessa. In questo modo, rivelano il flusso di eventi che avvengono dietro le quinte e quali richieste vengono filtrate.	Questo tipo di dati è controverso. Oggi è piuttosto comune sentire persone che dicono di non preoccuparsi affatto della raccolta o del tracciamento di dati pesanti (""se non hai nulla da nascondere, perché ti preoccupi della privacy?""), anche se ciò solleva molte preoccupazioni politiche ed economiche. In effetti, molti attivisti, scrittori e ricercatori sono soliti riferirsi a questi problemi con il concetto di capitalismo della sorveglianza, che contestualizza essenzialmente l'epoca che stiamo vivendo: un'epoca in cui le entità aziendali e governative raccolgono, vendono e condividono i nostri dati privati gli uni con gli altri a scopo di profitto e controllo, senza ripercussioni né consenso esplicito. Pertanto, l'utilizzo dei miei dati personali ha lo scopo di evidenziare la quantità di richieste di rete legate al tracciamento o alla pubblicità durante una tipica giornata di navigazione sul web, dal punto di vista di chi sta cercando di allontanarsi costantemente dalle ""big tech"" e di passare lentamente al FLOSS (Free/Libre and Open Source Software) o ad alternative self-hosted.	Questo diario serve come prova della quantità di servizi e richieste che uBO consente, blocca o reindirizza nel mio browser durante una giornata di navigazione casuale, in modo da poter fare una valutazione approssimativa ma concreta della quantità di tracciamento che filtro. Ogni richiesta è dettagliata in base al timestamp, al sito web da cui proviene e al tipo di risorsa a cui corrisponde, per un totale di circa 50.000 righe (circa 860 pagine). Il formato - quello di un lungo e dettagliato libro di transazioni economiche - non solo si riferisce a ciò che di solito si fa con i dati riferiti dai log stessi (capitalizzazione), ma è anche una loro enunciazione fisica. In questo modo, gli conferisce peso e importanza, pur essendo trasparente e diretto nella sua consegna. Per evidenziare l'entità del filtraggio, le richieste bloccate e reindirizzate sono codificate a colori, in modo che il lettore possa riflettere ed eventualmente riconsiderare la propria posizione sulla questione più ampia del capitalismo della sorveglianza.",,https://infopoetry.densitydesign.org/assets/images/original/2022-2023_benedetto_3.jpg
+ok,Andrea Burchiani,,,,,"Poltroncina
+","https://infopoetry.densitydesign.org/infopoetries/poltroncina
+",,"Facebook activity data over years (from account
+creation until today), divided into personal
+information, interactions, connection and a
+lot more.
+“Poltroncina” is the first and only research I did
+on Facebook, during my whole user activity.
+This iconic example fully represents the presence
+that Facebook had and still has in my life:
+something which is completely marginal and
+meaningless regarding my life and my person;
+a social network that I used for a few years
+just to scroll some posts without interacting
+and creating that much. I mean… at least, this
+is what it seems like. Am I really sure that this
+perception that I have corresponds to the reality
+of facts? ls Facebook really secondary on
+my daily routine? What hidden data lies behind
+that armchair?",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-09_burchiani_2.jpg
+ok,Beini Mo,,,,,Am I Addicted to Intimacy?,https://infopoetry.densitydesign.org/infopoetries/am-i-addicted-to-intimacy?,,"All The Intimacy related keywords recorded in WeChat, all guys dated during the past year. My topic is my pathologically pursuit of inti- mate relationships through online footprint. I intend to calculate the times and the mentio- ned dates of key terms related to intimacy in my interactions on major messaging apps (We- Chat) , as well as the same relevant data about my dating history from various dating apps over the past year. In this context, I metaphorically liken my behavior to a psychological disorder, where I depict men as a form of medication,To Emphasize the ‘pathological’ nature of my pur- suit in the process of intimate relationships.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-38_mo_3.jpg
+ok,Benedetta Riccio,,,,,Interno C02FK99SMD6T,https://infopoetry.densitydesign.org/infopoetries/interno-c02fk99smd6t,,"Trackers who requested and accessed my data during 120 seconds on Safari on 27 November 2023, collected using Little Snitch.
+“INTERNO C02FK99SMD6T” (serial code of my computer) aims to reflect on privacy in di- gital environments by focusing on trackers’ re- quests to access to others’ online data. Through an inter-semiotic translation process, textual accesses were converted into vocal requests using artificial intelligence. Imagined inside an intercom, the medium between our home and the outside world: the installation presents a scenario in which trackers, who have become noisy passers-by wish to gain access to our home, ringing the intercom in proportion to the accesses to our data.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-46_riccio_1.jpg
+ok,Bianca Bauer,,,,,"Tapestry of Assumptions
+","https://infopoetry.densitydesign.org/infopoetries/tapestry-of-assumptions
+",,"Personal Google Chrome search history starting
+at the beginning of 2023 until October
+10th, is made up of 4062 search inputs.
+My project begins with a reflection of my cultural
+background, which is a mixed and complex
+matter. I wanted to leave the analysis to the
+language processing AI Chat-GPT, and see
+if it could make assumptions about the countries
+I have a connection to, based on my search
+history. The results were for the main part
+very close to what is true. For instance, it understood
+my bicultural background of
+Italian and Austrian roots, my strong interest
+for Japan, my translations from English to other
+languages etc.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-06_bauer_2.jpg
+ok,Bingru He,,,,,"Calculated Craving
+",https://infopoetry.densitydesign.org/infopoetries/calculated-craving,,"Purchase history from the online shopping
+platform Taobao: more than 1,000 shopping
+records from 2017 to the present.
+This project, through a collection of personal
+shopping data, reveals the invisible threads
+of algorithmic influence. Each leaflet juxtaposes
+past purchases against AI suggestions,
+portraying a narrative of calculated choices.
+The infopoem invites introspection on the
+autonomy of our desires in an era where our
+digital footprints are closely monitored and
+commodified. it’s a visual and reflective journey
+that questions the authenticity of our consumption
+choices, resonating with the subtle yet
+profound impact of technology on our everyday
+decisions. And let the audiences think about
+Just What Is It That Makes Digital Age’s us So
+Different, So Appealing.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-26_he_4.jpg
+ok,Carla D’Antonio,,,,,The Product is You,https://infopoetry.densitydesign.org/infopoetries/the-product-is-you,,"Data of app and services usage from and Apple (macOS) from the last year, so starting from Jan 2023 up to Dec 2023.
+Hustle culture is that unbearable societal pres- sure to maintain a high level of productivity, demanding you to constantly work. It glamo- rizes the idea of overworking yourself, telling you that your self-worth is measured by how productive you’ve been. Is productivity really
+a parameter to define human value? By basing people’s descriptions and costs on my compu- ter usage habits for work, the catalog questions the idea of productivity as a yardstick for eva- luating the individual, going so far as to suggest a future in which the individual can even be bought, and prompts the user to reflect on the social pressure to overwork in recent decades.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-16_dantonio_2.jpg
+ok,Daniela Paz Muñoz Rojas,,,,,"Safe Echos
+","https://infopoetry.densitydesign.org/infopoetries/safe-echos
+",,"A week of personal WhatsApp conversations
+with girl friends, partner and parents, capturing
+the intricacies of safety-related check-in messages
+exchanged.
+“Safe Echoes” delves into the constant presence
+of safety-related messages and the
+important role they play in a woman’s daily life.
+Reflecting constant vigilance, these messages
+reveal a fragment of the reality of women
+navigating a world that demands continuous
+safety awareness. It captures a spectrum of
+interactions, from inquiries about arrival to
+the tension of silence and relief from security
+confirmations, encouraging a reflection on the
+ubiquity and social nuances that shape women’s
+digital communication.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-40_munoz_1.jpg
+ok,David Hazan,,,,,Profiled by Google,https://infopoetry.densitydesign.org/infopoetries/profiled-by-google,,"All the collected data associated with a perso- nal Google account.
+The project aims to unveil the intricacies of data collection on users. The collected data
+is organized to align with the company’s needs, often diverging from how users would naturally categorize it. When users request their data, *they encounter a structured delivery that, despite being well-organized, poses challenges for the average person to decipher. Data is pre- sented in a binary format, which emphasis the amount of the collected data, and its complex interplay between data collection, categoriza- tion and transparency of our digital footprints. This exhibit aims to shed light
+on the continuous and systematic gathering of information, showcasing the substantial volume accumulated.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-25_hazan_5.jpg
+ok,Elisabetta Como,,,,,Need for Spid a Color Series of Access ,https://infopoetry.densitydesign.org/infopoetries/need-for-spid,,"Data extracted from January to December 2023 from PostelD app.
+In 2021, Politecnico di Milano implemented the two-factor authentication (2FA), also known as two-step verification, for accessing Online Ser- vices. Since then, whenever I needed to access the university portal, I had to generate
+a temporary six-factor code using the PosteID app to confirm my identity to my computer.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-13_como_4.jpg
+ok,Francesca Mattiacci,,,,,Tutte le volte che sono morta,https://infopoetry.densitydesign.org/infopoetries/tutte-le-volte-che-sono-morta,,"Google history of the last twelve months on searching for symptoms and illnesses.
+How easy is it, in the digital sphere, for a hypo- chondriac or even just anxious person
+to fall into a vicious circle of deadly and harmful self-diagnoses based on common symptoms (cyberchondria)? A series of medicine bottles has been devised, each named after the symp- tom entered in the Google search bar. Atta- ched to each vial is a leaflet that collects all the searches I have made and their fatal diagnoses over the past twelve months, judged from the search results. The drug ironically tries to draw attention to the issue of digital self-diagnosis and “all the times I’ve died” by stating in the package insert warnings that perhaps in reality “You might not die”.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-35_mattiacci_4.jpg
+ok,Giada Fugazzòla,,,,,"Passport Passepartout
+","https://infopoetry.densitydesign.org/infopoetries/passport-passepartout
+",,"Dataset extracted from LinkedIn.
+What is the combination of data that irrefutably
+distinguishes us? Profession is an element
+that is not only given importance in the drafting
+of documents, but also between people, being
+among the first things people say to each other.
+As the job search shifted to the internet, in order
+to stand out and leave my authentic mark,
+I worked on a visual language that would best
+communicate the perception I aimed to convey.
+The concept of Brand Identity and that of
+“brand new” are intertwined in this project,
+with the creation of an ad hoc passport for the
+person LinkedIn sees me as, completing the
+profile with the assumptions it made based on
+the narrative I used.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-23_fugazzola_9.jpg
+ok,Giulia Costanzo,,,,,The Aura’s Standstill,https://infopoetry.densitydesign.org/infopoetries/the-aura-s-standstill,,"WhatsApp messages from 2021 to 2023. Tra- ceable through the app by searching for “emi- crania”.
+The infopoetry shows personal struggles with migraines and the ephemerality of daily rou- tines. These episodes are visually manifested through water and watercolor stains on cor- responding pages, mirroring the “scintillating scotoma”
+I experience during attacks. The liquid dissolu- tion of handwritten commitments underscores the impact of migraines, rendering the text unreadable: a representation of how my life
+is forced into a temporary standstill. Printed text messages serve as both markers for attack days, illustrating their frequency, and as digital imprints of these episodes. The project commu- nicates the often invisible impact of migraines on my daily life.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-15_costanzo_4.jpg
+ok,Havrylova Kseniia,,,,,"telefiloi
+War telegrams and long distance friendship",https://infopoetry.densitydesign.org/infopoetries/telefiloi-war-telegrams-and-long-distance-friendship,,"The dataset is based on Telegram app conver- sations with friends during the starting period of Russia’s full scale invasion of Ukraine, from February 2022.
+“Telefiloi” is an archive of my online conversa- tions with friends during the invasion
+of Ukraine in 2022. Our ongoing exchanges form a narrative, reflecting our joint journey through the war. This project aims to provide an intimate perspective of friendship and the significance of distanced digital communication that bears profound emotional value during the times of crisis.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-24_havrylova_5.jpg
+ok,Helena Anna Maciukiewicz,,,,,"Hand in Hand
+","https://infopoetry.densitydesign.org/infopoetries/hand-in-hand
+",,"Collection of images of hands cropped out
+from photos taken with personal phone camera
+throughout the year.
+The focus point of this collection of images are
+hands — a powerful tool of non-verbal communication.
+Each image invites the viewer to
+decipher the depth of these interactions.
+The intention of the project is not only to encapsulate
+and reflect on the connections
+from the past, but also provoke the viewers
+to pay more attention to the ones that they are
+experiencing on daily occasions. Another goal
+is also to show how nuanced the nature of
+non-verbal communication can be and that there
+are endless ways in which hands can express
+emotions, convey messages, and contribute
+to the overall language of communication.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-33_maciukiewicz_5.jpg
+NO; video non va,Jovana Tesic,,,,,Rhythm of Anticipation Rhythmic Narratives of Phone pick-ups,https://infopoetry.densitydesign.org/infopoetries/rhythm-of-anticipation,,"iPhone screen time data collected between October 9th and 21st, 2023.
+By analyzing my own real data from phone screen time, the focus is on understanding the emotional and psychological dimensions of digital dependencies. Specifically, the data rese- arch examines the frequency of phone pickups throughout the day, in which the immediate attention is given to Instagram. In exploring this habit, a noticeable disproportion emerges between the frequency of phone pickups and the actual notifications received. In this rela- tionship between digital behavior and emo- tional responses, ‘Rhythm of Anticipation’ is a visual and poetic narrative that captures the essence of anticipation, revealing the patterns and nuances of phone usage in the context of notification expectations.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-48_tesic.jpg
+ok,Lara Macrini,SÌ,lara.macrini@gmail.com,50x70x10cm ca,Hanged from a ceiling,My digital double and me,https://infopoetry.densitydesign.org/infopoetries/my-digital-double-and-me,"The project starts from the inferences Spotify made about me, based on data about my online behaviour coming mainly from third parties. The dataset is taken from the files of informations about me that I requested directly to Spotify which includes more than 500 inferences about my lifestyle, my personality, my social class, my user and purchase habits, my interests, my work and much more. For the infopoetry I selected the most relevant and unified similar ones, mantaining the focus also on the times each assumption is repeated.","Talking about the algorithmic interpretation of us, the aim is to reflect on how our data travel between platforms and define us in ways that often do not reflect our person. The amount of informations algorithms “pretend” to know about us is astonishing and can make us critically reflect on how they label us to at least partially catch our needs and reuse them. The project also underlines how the awkward inferences that algorithms can make and the stereotyped results of a text-to-image model speak for themselves in dispelling the myth of unbiased and objective AI.","The infopoetry reflects on the insanely specific and biased inferences algorithms make about us, in a continuous exchange of informations between platforms. The hundreds assumptions Spotify made about me from third parties are visually translated with a text-to-image AI, Stable Diffusion, using each inference as a prompt. The resulting generated images are merged proportionally, considering the times each assumption is repeated in the dataset and, therefore, how much it’s associated with me. The final result is, to all intents, the appearance of my digital double according to those algorithms and their stereotypes.","Il progetto parte dalle inferenze che Spotify ha fatto su di me, sulla base di dati sul mio comportamento online provenienti principalmente da terze parti. Il dataset è tratto dai file di informazioni su di me che ho richiesto direttamente a Spotify e che comprendono più di 500 inferenze sul mio stile di vita, la mia personalità, la mia classe sociale, le mie abitudini di utilizzo e di acquisto, i miei interessi, il mio lavoro e molto altro. Per l'infopoesia ho selezionato quelle più rilevanti e simili tra loro, mantenendo l'attenzione anche sulle volte in cui ogni ipotesi viene ripetuta.	Parlando dell'interpretazione algoritmica di noi, l'obiettivo è riflettere su come i nostri dati viaggino tra le piattaforme e ci definiscano in modi che spesso non riflettono la nostra persona. La quantità di informazioni che gli algoritmi ""pretendono"" di conoscere su di noi è sorprendente e può farci riflettere criticamente sul modo in cui ci etichettano per cogliere almeno in parte le nostre esigenze e riutilizzarle. Il progetto sottolinea anche come le maldestre inferenze che gli algoritmi possono fare e i risultati stereotipati di un modello da testo a immagine parlino da soli per sfatare il mito di un'IA imparziale e oggettiva.	L'infopoesia riflette sulle inferenze follemente specifiche e distorte che gli algoritmi fanno su di noi, in un continuo scambio di informazioni tra piattaforme. Le centinaia di supposizioni che Spotify ha fatto su di me da parte di terzi sono tradotte visivamente con un'intelligenza artificiale da testo a immagine, Stable Diffusion, usando ogni inferenza come suggerimento. Le immagini generate vengono unite in modo proporzionale, considerando le volte in cui ogni ipotesi si ripete nel set di dati e, quindi, quanto è associata a me. Il risultato finale è, a tutti gli effetti, l'aspetto del mio doppio digitale secondo quegli algoritmi e i loro stereotipi.",,https://infopoetry.densitydesign.org/assets/images/uploads/2022-2023_macrini_4.jpg
+ok,Lucrezia Spapperi Gestri,,,,,"Me, alias data
+","https://infopoetry.densitydesign.org/infopoetries/me-alias-data
+",,"The “normality” according to health and culture
+standards are rarer than we think, what is
+normal for a diabetic? Is it the same of someone
+with no health issues? The visual storytelling
+of this projects wants to enlight the differences
+about perceptions. Through my everyday
+life and my constant need of datas in order to
+conduct my “normal” life. The other digital me
+or what is called “atlas” not always has a negative
+meaning as is usual to be given when talking
+about datas. It’s necessary for someone’s life.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2022-2023_spapperi-gestri_3.jpg
+ok,Malena Paz Del Zotto,,,,,Jumbo love Replaying Beaucoup Fish,https://infopoetry.densitydesign.org/infopoetries/jumbo-love-replaying-beaucoup-fish,,"Track replays on Spotify (from December 2022 to October 2023): focusing particularly on one of my favorite albums.
+What would happen if each minute of music played on streaming occupied a piece of phy- sical space, like analogue records used to? The result indicates that, when something becomes too expansive, all-encompassing, it becomes inconvenient and excessive beyond what is nee- ded. The habit of listening to my favorite house album in the background takes on a grotesque, sizeable shape when it translates into centi- meters the minutes spent replaying it over the past year. By transcribing the information into a physical object, we are able to see the weight of it in our lives and become conscious of the sheer pervasiveness of content consumption available at our fingertips.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-43_pazdelzotto_2.jpg
+ok,Maria Alexandra Chiojdeanu,,,,,"DISCO INCANTATO
+","https://infopoetry.densitydesign.org/infopoetries/disco-incantato
+",,"As the title implies, when we say enchanted record, we mean talking about the same thing over and over again, returning to the same topic, being repetitive and monotonous, as if a turntable needle had become enchanted on the faulty spot on a record. The recording of this succession of repetitions of words will appear as an enchanted record even though it is not really. In addition, the cassette tape was chosen because it contains a tape on which music is recorded that can be listened to whenever one wants but which turns over and over, in the end, is always the same.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2022-2023_chiojdeanu_3.jpg
+ok,Martina Bracchi,SÌ,martinabracchi.mb@gmail.com,"21 x 29,7 cm ",On a table,Blind Painter,https://infopoetry.densitydesign.org/infopoetries/blind-painter,"Words and sentences I would use to talk about myself. Images produced by Dall_E.
+","I have always found it very difficult to describe myself.
+Pushing myself to find different words to talk about me and different angles from which to look myself at, intrigues and frightens me at the same time.","Using Dall-E, an AI system that can create images from a description in natural language I wrote different prompts with the objective of obtaining an image similar to my real self.
+Starting from writing my name and surname, I changed the prompt every time trying to get an output similar to my self-image. Every time I try different ways to describe me, looking at the physical aspect, the mood and the actions that I did that day. Obtaining a sort of algorithmic diary. 
+Blind painter is a book that collects all these images and retrace my research process, a meticulous analysis of my self-image.","Parole e frasi che userei per parlare di me. Immagini prodotte da Dall_E.	Ho sempre trovato molto difficile descrivere me stesso. Spingermi a trovare parole diverse per parlare di me e angolazioni diverse da cui guardarmi, mi incuriosisce e mi spaventa allo stesso tempo.	""Utilizzando Dall-E, un sistema di intelligenza artificiale in grado di creare immagini a partire da una descrizione in linguaggio naturale, ho scritto diversi prompt con l'obiettivo di ottenere un'immagine simile al mio io reale.
+Partendo dalla scrittura del mio nome e cognome, ho cambiato ogni volta la richiesta cercando di ottenere un risultato simile all'immagine di me stesso. Ogni volta ho provato a descrivermi in modi diversi, osservando l'aspetto fisico, lo stato d'animo e le azioni che ho compiuto quel giorno. Ottenendo una sorta di diario algoritmico. 
+Blind painter è un libro che raccoglie tutte queste immagini e ripercorre il mio processo di ricerca, un'analisi meticolosa della mia immagine di sé"".",,https://infopoetry.densitydesign.org/assets/images/original/2022-2023_bracchi_1.jpg
+ok,Michela Chignoli,,,,,"Into the sludge
+","https://infopoetry.densitydesign.org/infopoetries/into-the-sludge
+",,"
+Videos (Sept to Dec) in which the screen is split:
+the actual content and mext or below the content,
+there is the sludge content.
+Nowadays watching only one video at a time is
+no longer enough, but we need ancillary content
+to help us stay focused: our attention is
+divided, separated. To represent this it has two
+large panels, on which there are nails, indicating
+the collected content. On one side the actual
+contents are represented, while on the other
+side there is the sludge content. The threads
+represent attention. The bundle of threads connected
+to the actual content will then be taut,
+while those referring to the ancillary content
+will be softer, indicating that the type of attention
+given to the two parts is always different.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-12_chignoli_1.jpg
+ok,Mona Abolghasemi,,,,,"The Tangibility of my Phone
+Gallery
+","https://infopoetry.densitydesign.org/infopoetries/the-tangibility-of-my-phone-gallery
+",,"Personal dataset of approximately 14,500
+photos collected over five years from my smartphone.
+“The Tangibility of my Phone Gallery” is an
+exhibit that transforms the intangible clutter
+of digital photos into a physical reality. In this
+project, I focus on 24 months out of a five-year
+period, during which approximately 9,900
+photos were collected on my smartphone. I use
+empty folders or boxes (without real photos in
+them). Each box shows a month from these two
+years. The size of each box changes depending
+on how many photos I took that month – more
+photos mean a thicker box. Every box has a label
+showing the year, the month, and how many
+photos it represents.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-01_abolghasemi_3.jpg
+ok,Noemi Capparelli,,,,,Why Do You Never Call,https://infopoetry.densitydesign.org/infopoetries/why-do-you-never-call,,"Screen time of the app “Phone calls” and whatsapp
+“Storage and data” for texts.
+This infopoetry wants to show how different
+generations conceive communication and how
+they use a medium such as the smartphone. It
+is a reflection on how young people, starting
+from me as a study case, tend to communicate
+mainly throught text messages, meanwhile
+some adults, like my dad, will rather spend
+hours talking on the phone. This difference
+leads one to reflect on how communication
+nowadays must be fast, concise, and often detached.
+Some, however, continue to seek closer,
+more lasting, more in-depth contact even
+through the use of cell phones. In particular,
+the project compares the amount of time spent
+by my dad an I talking on the phone and the
+amount of whatsapp texts sent.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-11_caparelli_3.jpg
+ok,Paola Pia Palumbo,,,,,Dataquake Echoes of Digital Overload,https://infopoetry.densitydesign.org/infopoetries/dataquake,,"Screen time of iPhone and Mac.
+The project is an audiovideo that aims to dyna- mically capture the essence of a day immersed in interactions with digital devices, specifically phone and computer. Through rapid transitions from one device to another and from one ap- plication to another, the audiovisual experien- ce intensifies the chaos and overlap of digital inputs, compressing them into a short span of time. In this way it aims to exasperate the con- cept and encourage reflection on the complexi- ty of the technological fabric that constitutes our daily lives.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-42_palumbo.jpg
+ok,Qin Wang,,,,,"Byteblocks: Spellbinding for
+ Digital Hoarding
+","https://infopoetry.densitydesign.org/infopoetries/byteblocks-spellbinding-for-digital-hoarding
+",,"Two personal computer disks frequently used
+since 2018: more than 1600 different kinds of
+files.
+The upcoming iteration of the “Scrabble game”
+within this project serves a distinct purpose:
+fostering mindfulness regarding digital habits.
+It simulates the process of organizing files
+by paralleling the arrangement of letters into
+words. All game elements —boards, letter tiles,
+and scoring books—are crafted according to
+the project’s dataset.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-53_wang_1.jpg
+ok,Riccardo Ventura,,,,,"Moimême
+","https://infopoetry.densitydesign.org/infopoetries/moimeme
+",,"Internet activities, including likes, shares, com- ments, etc, from Meta platforms. Based on my online activities, algorithms de- fined a highly defined list of what are my inte- rests in order to target adv and sponsorships more accurately. Some of them are extremely accurate, others are just wrong, some of them are right but I didn’t even know I was interested in them. Starting from this list I’ll add humanity to this data, giving and transforming this text into a prompt. This will then be prompted to Midjourney and elaborated on a portrait of my- self. Conclusively, I will group all the fragments of my digital double in a video that will display a project will also be accessible through a QR code leading to a webapp, where all the topics, prompts and paintings and will be displayed.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-52_ventura.jpg
+ok,Sara Matilda Montorio,,,,,Social Battery,https://infopoetry.densitydesign.org/infopoetries/social-battery,,"Daily phone use (October 9-11, 2023), highli- ghting how it is often used inordinately. Sour- ced through Apple’s data and privacy section. The observers are invited to reflect on how daily actions are altered, even if unconsciously, in order to stay connected and continue using the digital devices. The goal is thus to make the viewers observe how some social activities in the offline world are ignored in favor of stimuli from the online reality, emphasizing how even when the devices are charging the user cannot decide whether to disconnect from them. The charger becomes a chain that prevents the users from walking away from the outlet, some- times foregoing social occasions that occur in offline life.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-39_montorio_3.jpg
+ok,Shuo Lou,,,,,October Sleep Symphony,https://infopoetry.densitydesign.org/infopoetries/october-sleep-symphony,,"Sleep data from September 29, 2023 to Octo- ber 30, 2023 through iPhone and iWatch.
+As an in-depth study, I want to try the possibi- lity of establishing a correlation between sleep values, wavelengths and audio-visual language. By observing the wavelength chart displayed in the iPhone software, I found that the spools in the background of the data chart were five lines. The same five strings and different notes were active on the five lines, and finally con- nected together to compose a beautiful move- ment. Even in different countries and different languages, the author can be communicated with each other through “smart” syllables. When sleep wavelengths are transformed into syllables, a new emotional bond will be establi- shed between the cold values and wavelengths and the readers.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-32_lou.jpg
+ok,Silvia Altamura,SÌ,silvia.altamura@mail.polimi.it,Video,On a TV,Chained to the rhythm,https://infopoetry.densitydesign.org/infopoetries/chained-to-the-rhythm,"I tracked the time I spend on Instagram and what activities I do in the app: viewing and liking a post or a video, receiving and sending messages, posting stories, typing in the search bar.",I spend too many hours everyday scrolling on Instagram and it seems insignificant because I do that without effort. The aim of the project is to give these gestures a new substance turning them into sound to show their recurrence and their real amount.,"This is a chronicle of my activities on Instagram over three typical days. The dataset was translated into a visual and sonic loop in which my behaviors are identified by sounds, shapes and colors. 
+What is shown here on the screen is meant to imitate the effect that social media has on our mind. They are quite mesmerizing, they attract our attention providing endless entertainment.","Ho monitorato il tempo che trascorro su Instagram e le attività che svolgo nell'app: visualizzare e apprezzare un post o un video, ricevere e inviare messaggi, pubblicare storie, digitare nella barra di ricerca.	Trascorro troppe ore al giorno scorrendo su Instagram e mi sembra insignificante perché lo faccio senza sforzo. L'obiettivo del progetto è dare a questi gesti una nuova sostanza trasformandoli in suono per mostrare la loro ricorrenza e la loro reale entità.	""Questa è una cronaca delle mie attività su Instagram in tre giorni tipici. Il dataset è stato tradotto in un loop visivo e sonoro in cui i miei comportamenti sono identificati da suoni, forme e colori. 
+Ciò che viene mostrato sullo schermo vuole imitare l'effetto che i social media hanno sulla nostra mente. Sono piuttosto ipnotici, attirano la nostra attenzione fornendo un intrattenimento senza fine"".",,https://infopoetry.densitydesign.org/assets/images/uploads/2022-2023_altamura_1.png
+ok,Silvia Casavola,SÌ,silcasavola@gmail.com,"11x15 cm (+ comment to the prev question: it depends on how short, I would like to prepare a better-finished version if possible)",On a table,Human Face,https://infopoetry.densitydesign.org/infopoetries/human-face,The personal photos that I shared on Instagram in the latest years.,"The source of the data relates to the concept of digital identity and its relationship with the ego. The process, then, is connected to the idea of employing algorithmic processes as new tools for creative/uncreative expression of our digitally mediated lives. Lastly, the medium refers to literary experimentalism and takes inspiration from ""uncreative writing” practices. ","""Human Face"" is a book about the life of a young adult, or at least the part of it that she decided to share on social media and publicly present herself with. Each page of the book represents a personal photo, but it has been turned into a typographic composition by a computer vision algorithm that scans the images and detects their content. The process allows to replace the overabundance of images of the original medium with the paradoxical absence of visual clues. The words, decontextualized and apparently randomly scattered on the page, take the form of a concrete poem, developed through an “uncreative” literary experiment.","Le foto personali che ho condiviso su Instagram negli ultimi anni.	La fonte dei dati si riferisce al concetto di identità digitale e al suo rapporto con l'io. Il processo, poi, è collegato all'idea di impiegare processi algoritmici come nuovi strumenti per l'espressione creativa/non creativa delle nostre vite mediate digitalmente. Infine, il mezzo fa riferimento allo sperimentalismo letterario e trae ispirazione dalle pratiche di ""scrittura non creativa"". 	""Human Face"" è un libro sulla vita di una giovane adulta, o almeno sulla parte di essa che ha deciso di condividere sui social media e di presentarsi pubblicamente. Ogni pagina del libro rappresenta una foto personale, ma è stata trasformata in una composizione tipografica da un algoritmo di computer vision che scansiona le immagini e ne rileva il contenuto. Il processo permette di sostituire la sovrabbondanza di immagini del supporto originale con la paradossale assenza di indizi visivi. Le parole, decontestualizzate e apparentemente sparse a caso sulla pagina, assumono la forma di una poesia concreta, sviluppata attraverso un esperimento letterario ""non creativo"".",,https://infopoetry.densitydesign.org/assets/images/uploads/2022-2023_casavola_1.jpg
+ok,Sofia Bonfanti,,,,,"Blank Space
+","https://infopoetry.densitydesign.org/infopoetries/blank-space
+",,"Distractions found during one day (November
+27) of searches on the web. The data were extracted
+from personal Google Chrome history.
+I easily get distracted: during conversation,
+walking down the street, while reading. Blank
+Space recreates the experience in which the
+rhythm of reading is interrupted by external
+input like notifications, ideas that pop out and
+links found. The distractions are visualized
+through white spaces that shift the underlying
+text based on the number of words that could
+be read in that time span. The project aims to
+provoke a reflection on the meaning that we
+associate with our daily distractions: does it
+result in a loss of time and meaning, or is it an
+opportunity to discover something else?",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-07_bonfanti_2.jpg
+ok,Litong Sun,SÌ,10916351@polimi.com,a screen,On a TV,Secret Mood,https://infopoetry.densitydesign.org/infopoetries/secret-mood,"The data comes from my recording of six months of menstrual data. Regarding blood flow, pain values in different parts of the body and changes in mood on the ground at the time.","Menstruation, a physiological phenomenon that has been with girls for a long time, has always been something that is not easily mentioned in public, like a secret reserved for girls. But the pain and weakness that girls experience during menstruation is the most honest feedback from the body. I think women should be more positive about their body's feedback and pay attention to how they feel. I hope that through the interaction with the project, the audience can indirectly convey some ""real feelings"", so that they can appreciate the specificity of the female population.","The project is an interactive installation that connects the audience via pressure sensors. The viewer applies different amounts of pressure and the animated images controlled by the data change accordingly. The greater the pressure, the greater the distortion of the image, directly reflecting the ups and downs of my emotions and the level of physical pain.","I dati provengono dalla mia registrazione di sei mesi di mestruazioni. Riguardano il flusso sanguigno, i valori del dolore in diverse parti del corpo e i cambiamenti di umore in quel momento.	Le mestruazioni, un fenomeno fisiologico che accompagna le ragazze da molto tempo, sono sempre state qualcosa di cui non si parla facilmente in pubblico, come un segreto riservato alle ragazze. Ma il dolore e la debolezza che le ragazze provano durante le mestruazioni sono il feedback più onesto del corpo. Penso che le donne dovrebbero essere più positive nei confronti del feedback del loro corpo e prestare attenzione a come si sentono. Spero che attraverso l'interazione con il progetto, il pubblico possa trasmettere indirettamente alcuni ""sentimenti reali"", in modo da apprezzare la specificità della popolazione femminile.	Il progetto è un'installazione interattiva che connette il pubblico attraverso sensori di pressione. Lo spettatore applica diverse quantità di pressione e le immagini animate controllate dai dati cambiano di conseguenza. Maggiore è la pressione, maggiore è la distorsione dell'immagine, che riflette direttamente gli alti e bassi delle mie emozioni e il livello di dolore fisico.",,https://infopoetry.densitydesign.org/assets/images/uploads/2022-2023_sun_1.png
+ok,Tommaso Prinetti,,,,,Who’s the Algorithm?,https://infopoetry.densitydesign.org/infopoetries/who-s-the-algorithm?,,"Track replays on Spotify (from December 2022 to October 2023): focusing particularly on one of my favorite albums.
+What would happen if each minute of music played on streaming occupied a piece of phy- sical space, like analogue records used to? The result indicates that, when something becomes too expansive, all-encompassing, it becomes inconvenient and excessive beyond what is nee- ded. The habit of listening to my favorite house album in the background takes on a grotesque, sizeable shape when it translates into centi- meters the minutes spent replaying it over the past year. By transcribing the information into a physical object, we are able to see the weight of it in our lives and become conscious of the sheer pervasiveness of content consumption available at our fingertips.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-44_prinetti_3.jpg
+ok,Yasemin Umac,,,,,Purgatory:Araf,https://infopoetry.densitydesign.org/infopoetries/purgatory-araf,,"YouTube recipe list for 90 days.
+During the painful process of finding myself,
+I found myself on my “cooking/discovering
+new recipes” journey that took me away from everyone and everything. We have difficulty finding out who we are, what we want to do, or the characteristics that make us who we are, because we have already accepted the opinions of others and we just live in that bubble. We experience a breaking point at a certain point in our lives. In order to find myself at this bre- aking point, I worked like a bee every day and discovered myself and in those moments could I escape from everyone’s thoughts, words and looks and find myself in that moment. It also played a big role in my decision making: the moment I listened to my true self was when I was cooking.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-50_umac_4.jpg
+ok,Diego Valdivieso Benavente,,,,,Altars of peace	,https://infopoetry.densitydesign.org/infopoetries/altars-of-peace       ,,"4 years, obtained from Google TakeOut.
+In the digital sanctuary, beside cyber-churches, stands an altar of connection—a haven where devotees pray and kindle digital candles. The candles, witnesses to time’s fleeting flow, re- mind us of its irretrievable nature. Here, wor- shipped figures are YouTube idols, custodians of modern wisdom and sacred entertainment. Arranged in rows and columns like traditional altars, the candles unveil our real-life viewing history—a chart of highs and lows, moments of reflection, and distraction. Thus, in the dimness of this modern altar, candles glow as symbols of our worship of information, fusing the divine and the digital in a unique liturgy illuminating the journey of our connected existence.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-51_valdivieso_1.jpg
+ok,Vanessa Medda,,,,,Query ergo sum?,https://infopoetry.densitydesign.org/infopoetries/query-ergo-sum?,,"Safari and Google search on computer and pho- ne, in December 2023.
+What happens to our digital data when we ma- nage to evade tracking and profiling?
+When you do not accept cookies, browse only in undercover mode, and share profiles with other users the data that are usually used to profile a digital twin remain only scattered traces. Even though we are present on the web we remain invisible, our traces are dispersed among billions of data, and the searches we make vanish as soon as we close the device. I designed a magazine whose pages are an alter- nation between blank pages and acetate pages printed with white ink. What happens when pages overlap and the information shown is not visible?",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-36_medda_6.jpg
+ok,Yiyou Zuo,,,,,Measuring attitude,https://infopoetry.densitydesign.org/infopoetries/measuring-attitude,,"WeChat chat records, from the last three months
+with five people.
+I try to concrete my different attitudes towards
+different people and see how my attitudes
+changed on Wechat by analyzing real chat
+records.In Measuring attitude, I calculate the
+number of days of chatting, the number of
+words, and the length of the chat box,finally
+convert them into information on a tape measure.
+The length of the tape measure represents
+the length of the dialog box in the chat.
+By combining all those information, I can clearly
+see how different people are treated by
+me on WeChat. Although social media cannot
+represent all of me, as my online avatar, it can
+allow me to re-examine and objectively understand
+my true selves from a new perspective.",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-59_zuo_3.jpg
+ok,Shengnan Zhou,,,,,TikTok Habits,https://infopoetry.densitydesign.org/infopoetries/tiktok-habits,,"A record of the TikTok video watched (2022- 2023), with the content of the video messages organized and categorized. It always feels like time passes quickly when I use short video apps, and these fragmented messages always take up my time without me realizing it. But in the process I always don’t know what I got and can’t recall what I saw. So I started to review my short video records and when I saw them again I found them very bo- ring and even with a lot of misinformation, most of the short videos I watched turned out to be rubbish in my eyes. I categorized these videos into rubbish and presented them.
+",,,,https://infopoetry.densitydesign.org/assets/images/uploads/2023-2024-57_zuo_4.jpg

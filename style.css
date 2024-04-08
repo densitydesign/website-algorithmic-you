@@ -26,9 +26,14 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+a, a:visited, a:focus {
+    text-decoration: underline !important;
+}
+
 .jumbotron-custom {
-    padding: 120px 12px;
+    padding: 20vh 12px 50px 12px;
     font-size: 0.9rem;
+    line-height: 1.2;
     background: rgb(61,130,255);
     background: linear-gradient(180deg, rgba(61,130,255,1) 0%, rgba(241,241,241,1) 50%); 
 }
@@ -38,14 +43,26 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
-.jumbotron-custom img {
+.jumbotron-custom .logo {
     margin: 12px;
     margin-bottom: 2rem;
     /* mix-blend-mode: exclusion; */
 }
 
+.jumbotron-custom .details {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 .sticky-top {
     z-index: 1020; /* Adjusted for Bootstrap 5, if necessary */
+}
+
+.logo-parade img {
+    height: 60px;
+    width: auto;
+    margin-top: 1rem;
+    margin-right: 3rem;
 }
 
 .card-custom * {
@@ -57,17 +74,20 @@ h1, h2, h3, h4 {
     border: none;
     background: transparent;
     padding: 0;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #000;
+    padding-bottom: 1.5rem;
 }
 
 .card-custom h5 {
     font-weight: 700;
 }
 
+.custom-style {
+    font-size: 1.35rem;
+}
+
 .card-img-top {
     width: 100%; /* Assicurati che l'immagine riempia la larghezza del contenitore della card */
-    height: 250px; /* Imposta un'altezza fissa per fare in modo che l'immagine venga croppata */
+    height: 300px; /* Imposta un'altezza fissa per fare in modo che l'immagine venga croppata */
     object-fit: cover; /* Assicura che l'immagine copra completamente lo spazio disponibile, venendo croppata se necessario */
     margin-bottom: 1rem;
     border-radius: 2px;
@@ -83,3 +103,17 @@ h1, h2, h3, h4 {
 .navbar a {
     text-decoration: underline;
 }  
+
+footer {
+    font-size: 0.9rem;
+    margin: 5rem 0 2rem 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+
+}
