@@ -146,9 +146,9 @@
         const container = d3.select('#gallery');
         const item = container.selectAll('div')
         .data(data)
-        .enter().append('div').classed("custom-style", true);
+        .enter().append('div');
         
-        item.append("img").style("height", "10vw").attr("src", d => d.img).classed("cover", true);
+        item.append("img").attr("src", d => d.img).classed("cover", true);
         item.append("p").text(d => d.name);
 
         item.append("p").append("a").attr("href", d => d.link).attr("target", "_blank").text(d => d.title).style("font-weight", 700);

@@ -66,6 +66,7 @@ em {
 #gallery > div {
     margin-right: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .jumbotron-gallery {
@@ -118,8 +119,8 @@ em {
 }
 
 .cover {
-    width: 100%;
-    height: 15vw;
+    width: auto;
+    height: 150px;
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -175,7 +176,7 @@ footer li {
         font-size: 1rem;
     }
 
-    .custom-style img {
-        width: 50px;
+    #gallery > div {
+        margin-right: 0;
     }
   }
