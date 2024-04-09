@@ -87,6 +87,9 @@
       </div>
     </div>
   </div>
+
+  <div id="gallery" class="jumbotron jumbotron-fluid jumbotron-gallery px-4" style="height: auto">
+  </div>
   
   <div class="container-fluid px-4">
     <div class="row">
@@ -137,20 +140,34 @@
     // Funzione per caricare i dati e generare le cards aggiornata per D3.js v7
     function loadCards() {
       const spreadsheetUrl = 'assets/data.csv';
-      
+
       d3.csv(spreadsheetUrl).then(function(data) {
         // console.log(data);
-        const container = d3.select('#table-insert');
-        const row = container.selectAll('tr')
+        const container = d3.select('#gallery');
+        const item = container.selectAll('div')
         .data(data)
-        .enter().append('tr').classed("custom-style", true);
+        .enter().append('div').classed("custom-style", true);
         
-        row.append("td").style("width", "20vw").style("padding", 0).append("div").style("background-image", d => `url("${d.img}")`).classed("cover", true);
-        row.append("td").text(d => d.name);
+        item.append("img").style("height", "10vw").attr("src", d => d.img).classed("cover", true);
+        item.append("p").text(d => d.name);
 
-        row.append("td").append("a").attr("href", d => d.link).attr("target", "_blank").text(d => d.title).style("font-weight", 700);
+        item.append("p").append("a").attr("href", d => d.link).attr("target", "_blank").text(d => d.title).style("font-weight", 700);
       });
     }
+      
+    //   d3.csv(spreadsheetUrl).then(function(data) {
+    //     // console.log(data);
+    //     const container = d3.select('#table-insert');
+    //     const row = container.selectAll('tr')
+    //     .data(data)
+    //     .enter().append('tr').classed("custom-style", true);
+        
+    //     row.append("td").style("width", "20vw").style("padding", 0).append("div").style("background-image", d => `url("${d.img}")`).classed("cover", true);
+    //     row.append("td").text(d => d.name);
+
+    //     row.append("td").append("a").attr("href", d => d.link).attr("target", "_blank").text(d => d.title).style("font-weight", 700);
+    //   });
+    // }
     
     loadCards();
     // function loadCards() {

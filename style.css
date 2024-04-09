@@ -63,6 +63,29 @@ em {
     font-weight: 700;
 }
 
+#gallery > div {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.jumbotron-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.jumbotron-gallery img {
+    margin-bottom: 0.2rem;
+}
+
+.jumbotron-gallery p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
 .sticky-top {
     z-index: 1020; /* Adjusted for Bootstrap 5, if necessary */
 }
