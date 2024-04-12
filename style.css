@@ -64,8 +64,7 @@ em {
 }
 
 #gallery > div {
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin: 0 1rem 1rem 1rem;
     text-align: center;
 }
 
@@ -177,6 +176,6 @@ footer li {
     }
 
     #gallery > div {
-        margin-right: 0;
+        margin: 0 0.5rem 0.5rem 0.5rem;
     }
   }
