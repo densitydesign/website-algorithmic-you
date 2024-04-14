@@ -26,6 +26,11 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
 a, a:visited, a:focus {
     text-decoration: underline !important;
 }
@@ -61,6 +66,31 @@ em {
 .jumbotron-custom .details {
     font-size: 1.1rem;
     font-weight: 700;
+}
+
+.home-link {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.scroll-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin-bottom: 5rem;
+}
+
+.scroll-gallery img {
+    height: 70vh;
+    margin: 0 0.5rem;
+}
+
+.scroll-gallery img:first-of-type {
+    margin-left: 2rem;
+}
+
+.scroll-gallery img:last-of-type {
+    margin-right: 2rem;
 }
 
 #gallery > div {

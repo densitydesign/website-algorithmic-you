@@ -57,8 +57,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav me-auto mb-2 mb-lg-0">
-          <a class="nav-item nav-link" href="http://densitydesign.org/" target="_blank">DensityDesign Lab</a>
-          <a class="nav-item nav-link" href="https://infopoetry.densitydesign.org/" target="_blank">Infopoetry archive</a>
+          <a class="nav-item nav-link" href="#exhibition-gallery">Exhibition</a>
+          <a class="nav-item nav-link" href="#featured-works">Featured works</a>
         </div>
         <span class="navbar-text">
           Darmstadt, 12th April — 23rd June 2024
@@ -81,31 +81,25 @@
           How do we reconcile the description of a phenomenon with the experience we have about it? A “poetic” approach to data could help: there are moments in the data-journey when “feeling” the phenomenon behind the data could be as relevant as accurately “seeing” the data that represent it.
         </p>
       </div>
-      <div class="col-md-4 offset-md-2"><p class="details">Die Poesie der Daten</p>
+      <div class="col-md-4 offset-md-2"><p class="details">Die Poesie der Daten <a href="https://kultur-digitalstadt.de/programm/algorithmicyou/" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a></p>
         <p class="details">Universitäts- und Landesbibliothek Darmstadt <br> 12th April — 23rd June 2024</p>
-        <a style="font-size: 1.1rem" href="assets/AlgorithmicYou-DARMSTADT-OPUSCOLO-INTERNO-web.pdf" target="_blank"><p><i class="bi bi-cloud-download"></i> What is infopoetry? (PDF)</p></a>
+        <a href="http://densitydesign.org/" target="_blank"><p class="home-link">DensityDesign Lab</p></a>
+          <a href="https://infopoetry.densitydesign.org/" target="_blank"><p class="home-link">Infopoetry archive</p></a>
+        <a href="assets/AlgorithmicYou-DARMSTADT-OPUSCOLO-INTERNO-web.pdf" target="_blank"><p class="home-link"><i class="bi bi-cloud-download"></i> What is infopoetry? (PDF)</p></a>
       </div>
     </div>
   </div>
 
-  <div id="gallery" class="jumbotron jumbotron-fluid jumbotron-gallery px-4" style="height: auto">
-  </div>
-  
-  <div class="container-fluid px-4">
-    <div class="row">
-      <div class="col-md-12">
-        <table class="table align-middle text-center">
-          <!-- <thead>
-            <tr>
-              <th scope="col" style="width: 100px"></th>
-              <th scope="col" style="width: 50%"></th>
-              <th scope="col" style="width: 50%"></th>
-            </tr>
-          </thead> -->
-          <tbody id="table-insert" >
-          </tbody>
-        </table>
+  <div class="jumbotron-fluid">
+    <h4 id="exhibition-gallery" class="text-center">The space</h4>
+      <div class="scroll-gallery">
+        <img src="assets/photos/IMG_3987_2.jpg"> <img src="assets/photos/IMG_4076.jpg"> <img src="assets/photos/IMG_4084.jpg"> <img src="assets/photos/IMG_3992.jpg"> <img src="assets/photos/IMG_3999.jpg">
       </div>
+  </div>
+
+  <div class="container-fluid px-4">
+    <h4 id="featured-works" class="text-center">Featured works</h4>
+    <div id="gallery" class="jumbotron jumbotron-fluid jumbotron-gallery px-4" style="height: auto">
     </div>
   </div>
 
@@ -154,44 +148,8 @@
         item.append("p").append("a").attr("href", d => d.link).attr("target", "_blank").text(d => d.title).style("font-weight", 700);
       });
     }
-      
-    //   d3.csv(spreadsheetUrl).then(function(data) {
-    //     // console.log(data);
-    //     const container = d3.select('#table-insert');
-    //     const row = container.selectAll('tr')
-    //     .data(data)
-    //     .enter().append('tr').classed("custom-style", true);
-        
-    //     row.append("td").style("width", "20vw").style("padding", 0).append("div").style("background-image", d => `url("${d.img}")`).classed("cover", true);
-    //     row.append("td").text(d => d.name);
-
-    //     row.append("td").append("a").attr("href", d => d.link).attr("target", "_blank").text(d => d.title).style("font-weight", 700);
-    //   });
-    // }
     
     loadCards();
-    // function loadCards() {
-      //   const spreadsheetUrl = 'assets/data.csv';
-      
-      //   d3.csv(spreadsheetUrl).then(function(data) {
-        //     console.log(data);
-        //     const cardsContainer = d3.select('#cards-container .row');
-        //     const cards = cardsContainer.selectAll('.card-custom')
-        //     .data(data)
-        //     .enter().append('div')
-        //     .attr('class', 'msnry-elm col-md-6 card-custom')
-        //     .append('div')
-        //     .attr('class', 'card mt-4');
-        
-        //     cards.append('img').attr('src', d=>d.img).attr('class', 'card-img-top');
-        //     let cardBody = cards.append('div').attr('class', 'card-body')
-        //     cardBody.append('h5').attr('class', 'card-title').text(d => d.title)
-        //     // cardBody.append('p').text(d => d.topic);
-        //     cardBody.append('a').attr('href', d => d.link).text(d => d.name);
-        //   });
-        // }
-        
-        loadCards();
       </script>
       
     </body>
