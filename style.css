@@ -26,8 +26,18 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
 a, a:visited, a:focus {
     text-decoration: underline !important;
+}
+
+em {
+    font-weight: 700;
+    font-style: normal;
 }
 
 .jumbotron-custom {
@@ -35,10 +45,9 @@ a, a:visited, a:focus {
     flex-wrap: wrap;
     height: 95vh;
     align-items: end;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     padding-bottom: 2rem;
     font-size: 0.9rem;
-    line-height: 1.2;
     background: rgb(61,130,255);
     background: linear-gradient(180deg, rgba(61,130,255,1) 0%, rgba(241,241,241,1) 60%); 
 }
@@ -57,6 +66,54 @@ a, a:visited, a:focus {
 .jumbotron-custom .details {
     font-size: 1.1rem;
     font-weight: 700;
+}
+
+.home-link {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.scroll-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin-bottom: 5rem;
+}
+
+.scroll-gallery img {
+    height: 70vh;
+    margin: 0 0.5rem;
+}
+
+.scroll-gallery img:first-of-type {
+    margin-left: 2rem;
+}
+
+.scroll-gallery img:last-of-type {
+    margin-right: 2rem;
+}
+
+#gallery > div {
+    margin: 0 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.jumbotron-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.jumbotron-gallery img {
+    margin-bottom: 0.2rem;
+}
+
+.jumbotron-gallery p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 .sticky-top {
@@ -87,7 +144,14 @@ a, a:visited, a:focus {
 }
 
 .custom-style {
-    font-size: 1.35rem;
+    font-size: 1rem;
+}
+
+.cover {
+    width: auto;
+    height: 150px;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .card-img-top {
@@ -141,7 +205,7 @@ footer li {
         font-size: 1rem;
     }
 
-    .custom-style img {
-        width: 50px;
+    #gallery > div {
+        margin: 0 0.5rem 0.5rem 0.5rem;
     }
   }
