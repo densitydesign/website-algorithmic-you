@@ -93,6 +93,27 @@ em {
     margin-right: 2rem;
 }
 
+.speech {
+    font-size: 1.5rem;
+}
+
+.speech h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.speech h1 {
+    color: rgb(61,130,255);
+    font-size: 1.5rem;
+}
+
+.speech em {
+    color: rgb(61,130,255);
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
 #gallery > div {
     margin: 0 1rem 1rem 1rem;
     text-align: center;
@@ -203,6 +224,10 @@ footer li {
 
     .custom-style {
         font-size: 1rem;
+    }
+
+    .speech {
+        font-size: 1.2rem;
     }
 
     #gallery > div {
